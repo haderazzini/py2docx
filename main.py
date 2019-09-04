@@ -22,6 +22,6 @@ if __name__ == "__main__":
     full_path_directory = os.path.abspath(target_directory)
 
     docx_name = 'documentation' #save in target directory
-    title_inside_docx = 'Plataforma para Desenvolvimento e Teste de Abordagens de Desagregação de Cargas Elétricas Residenciais.'
+    title_inside_docx = 'Software Documentation'
 
     rd.py2pdf(full_path_directory,title=title_inside_docx,docx_name=docx_name)
